@@ -1,12 +1,12 @@
 const express = require('express');
-// const cors = require('cors')
+const cors = require('cors')
 const mongoose = require('mongoose');
 const requireDir = require('require-dir')
 
 // Iniciando o APP
 const app = express();
 app.use(express.json());
-// app.use(cors()); // Publicar API
+app.use(cors()); // Publicar API
 
 // Iniciando Mongo
 mongoose.connect(
