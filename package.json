@@ -5,12 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonclark1/NODEjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffersonclark1/NODEjs/issues"
+  },
+  "homepage": "https://github.com/jeffersonclark1/NODEjs#readme"
 }
