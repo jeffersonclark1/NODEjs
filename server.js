@@ -3,7 +3,7 @@ const cors = require('cors')
 const mongoose = require('mongoose');
 const requireDir = require('require-dir')
 
-// Iniciando o APP
+// Iniciando o APP v1
 const app = express();
 app.use(express.json());
 app.use(cors()); // Publicar API
